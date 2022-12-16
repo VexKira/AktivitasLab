@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <script
+      type="text/JavaScript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"
+    ></script>
+  </head>
+  <body>
+    <a href="#" class="external">link</a>
+    <a href="#" class="external">link</a>
+    <a href="#"></a>
+    <a href="#" class="external">link</a>
+    <a href="#" class="external">link</a>
+    <a href="#"></a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <script>
+      alert($("a").filter(".external").length + " external links");
+    </script>
+  </body>
+</html>

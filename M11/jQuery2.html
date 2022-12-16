@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <script
+      type="text/JavaScript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"
+    ></script>
+  </head>
+  <body>
+    <p>old content</p>
+    <p>old content</p>
+    <p>old content</p>
+    <div>old content</div>
+    <script>
+      alert(
+        "Terdapat " +
+          $("p").length +
+          " elemen p dan " +
+          $("div").length +
+          " elemen div"
+      );
+      $("p,div").html("Selamat Pagi Dunia");
+    </script>
+  </body>
+</html>

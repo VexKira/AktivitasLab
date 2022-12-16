@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <script
+      type="text/JavaScript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"
+    ></script>
+  </head>
+  <body>
+    <div>
+      <ul>
+        <li><a href="#">link</a></li>
+        <li><a href="#">link</a></li>
+        <li><a href="#">link</a></li>
+        <li><a href="#">link</a></li>
+      </ul>
+    </div>
+    <script>
+      $("li:eq(1)").next(); //selects the third <li>
+      $("li:eq(1)").prev(); //selects the first <li>
+      $("li:eq(1)").parent(); //selects the <ul>
+      $("li:eq(1)").parent().children(); //selects all <li>s
+      $("li:eq(1)").nextAll(); //selects all the <li>s after the second <li>
+      $("li:eq(1)").prevAll(); //selects all the <li>s before the second <li>
+    </script>
+  </body>
+</html>

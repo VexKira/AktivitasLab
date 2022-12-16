@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <script
+      type="text/JavaScript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"
+    ></script>
+  </head>
+  <body>
+    <form>
+      <input name="" type="checkbox" /> <input name="" type="radio" />
+      <input name="" type="text" /> <input name="" type="button" />
+    </form>
+    <form>
+      <input name="" type="checkbox" /> <input name="" type="radio" />
+      <input name="" type="text" /> <input name="" type="button" />
+    </form>
+    <input name="" type="checkbox" /> <input name="" type="radio" />
+    <input name="" type="text" /> <input name="" type="button" />
+    <script>
+      alert("selected " + $("input", $("form")).length + " inputs");
+      alert("selected " + $("input", $("form")[0]).length + " inputs");
+      alert("selected " + $("input", "body").length + " inputs");
+    </script>
+  </body>
+</html>

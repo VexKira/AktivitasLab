@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <script
+      type="text/JavaScript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"
+    ></script>
+  </head>
+  <body>
+    <p>text</p>
+    <p class="middle">Middle <span>text</span></p>
+    <p>text</p>
+    <script>
+      alert($("p").filter(".middle").length);
+      alert($("p").filter(".middle").end().length);
+      alert($("p").filter(".middle").find("span").end().end().length);
+    </script>
+  </body>
+</html>
